@@ -558,7 +558,7 @@ main section.cards .images div img{
     object-fit: cover;
 }
 
-main section.cards .images .cozy div{
+main section.cards .images .cozy .usd{
     background-color: var(--color-white);
 }
 
@@ -581,12 +581,367 @@ main section.cards div:nth-child(6)>img{
     height: 60%;
 }
 
+main section.cards .images .cozy .usd{
+    display: grid;
+    row-gap: 16px;
+    padding: 1vw;
+}
+
+main section.cards .images .cozy .usd h6{
+    font-size: 24px;
+}
+
 main section.cards .images .cozy .los p{
     display: flex;
     align-items: center;
 }
 
-main section.cards .images .cozy .los p>svg{
+main section.cards .images .cozy .usd>.los p>svg{
     height: 20px;
     width: 20px;
+}
+
+main section.cards .images .cozy .usd>ul{
+    display: flex;
+    column-gap: 44px;
+    align-items: center;
+}
+
+main section.cards .images .cozy .usd>ul>li{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+main section.cards .images .cozy .usd>ul li svg{
+    width: 20px;
+    height: 20px;
+}
+
+
+main section.cards .images .san .usd{
+    background-color: var(--color-white);
+}
+
+main section.cards .images .san .los p{
+    display: flex;
+    align-items: center;
+}
+
+main section.cards .images .san .usd>.los p>svg{
+    height: 20px;
+    width: 20px;
+}
+
+main section.cards .images .san .usd h6{
+    font-size: 24px;
+}
+
+main section.cards .images .san .usd>ul{
+    display: flex;
+    column-gap: 44px;
+    align-items: center;
+}
+
+main section.cards .images .san .usd>ul>li{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+main section.cards .images .san .usd>ul>li svg{
+    width: 20px;
+    height: 20px;
+}
+
+main section.cards .images .san .usd{
+    display: grid;
+    row-gap: 16px;
+    padding: 1vw;
+}
+
+main section.cards .images .york .usd{
+    background-color: var(--color-white);
+    display: grid;
+    row-gap: 16px;
+    padding: 1vw;
+}
+
+main section.cards .images .york .usd h6{
+    font-size: 24px;
+}
+
+main section.cards .images .york .los p{
+    display: flex;
+    align-items: center;
+}
+
+main section.cards .images .york .usd>.los p>svg{
+    height: 20px;
+    width: 20px;
+}
+
+main section.cards .images .york .usd>ul{
+    display: flex;
+    column-gap: 44px;
+    align-items: center;
+}
+
+main section.cards .images .york .usd>ul>li{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+main section.cards .images .york .usd>ul>li svg{
+    width: 20px;
+    height: 20px;
+}
+
+main section.cards .images .angeles .usd{
+    display: grid;
+    background-color: var(--color-white);
+    row-gap: 16px;
+    padding: 1vw;
+}
+
+main section.cards .images .angeles .los p{
+    display: flex;
+    align-items: center;
+}
+
+main section.cards .images .angeles .usd>.los p>svg{
+    height: 20px;
+    width: 20px;
+}
+
+main section.cards .images .angeles .usd h6{
+    font-size: 24px;
+}
+
+main section.cards .images .angeles .usd>ul{
+    display: flex;
+    column-gap: 44px;
+    align-items: center;
+}
+
+main section.cards .images .angeles .usd>ul>li{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+main section.cards .images .angeles .usd>ul>li svg{
+    width: 20px;
+    height: 20px;
+}
+
+main section.cards .images .vegas .usd{
+    display: grid;
+    background-color: var(--color-white);
+    row-gap: 16px;
+    padding: 1vw;
+}
+
+main section.cards .images .vegas .los p{
+    display: flex;
+    align-items: center;
+}
+
+main section.cards .images .vegas .usd>.los p>svg{
+    height: 20px;
+    width: 20px;
+}
+
+main section.cards .images .vegas .usd h6{
+    font-size: 24px;
+}
+
+main section.cards .images .vegas .usd>ul{
+    display: flex;
+    column-gap: 44px;
+    align-items: center;
+}
+
+main section.cards .images .vegas .usd>ul>li{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+main section.cards .images .vegas .usd>ul>li svg{
+    width: 20px;
+    height: 20px;
+}
+
+main section.cards .images .diego .usd{
+    display: grid;
+    background-color: var(--color-white);
+    row-gap: 16px;
+    padding: 1vw;
+}
+
+main section.cards .images .diego .usd h6{
+    font-size: 24px;
+}
+
+main section.cards .images .diego .los p{
+    display: flex;
+    align-items: center;
+}
+
+main section.cards .images .diego .usd>.los p>svg{
+    height: 20px;
+    width: 20px;
+}
+
+main section.cards .images .diego .usd>ul{
+    display: flex;
+    column-gap: 44px;
+    align-items: center;
+}
+
+main section.cards .images .diego .usd>ul>li{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+main section.cards .images .diego .usd>ul>li svg{
+    width: 20px;
+    height: 20px;
+}
+
+main section.cards .explore{
+    display: flex;
+    margin: 0 auto;
+    column-gap: 24px;
+    row-gap: 10px;
+
+}
+
+main section.cards .explore a.first{
+    display: grid;
+    background-color: var(--color-white);
+    color: #000;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e7e8e3;
+    width: 200px;
+    height: 30px;
+
+}
+
+main section.cards .explore a.first:hover{
+    border: 1px solid var(--color-orange);
+    color: var(--color-orange);
+}
+
+main section.cards  .explore a.agent svg{
+    width: 15px;
+    height: 15px;
+}
+
+main section.cards .explore a.agent:hover{
+    border: 1px solid var(--color-orange);
+    color: var(--color-orange);
+    border-radius: 16px;
+}
+
+
+main section.cards .explore a.agent{
+    display: flex;
+    color: #000;
+    align-items: center;
+}
+
+main section.newcard{
+    display: grid;
+    background-color: #f5f5f2;
+    padding: 3vw;
+    row-gap: 50px;
+}
+
+main section.newcard h3{
+    text-align: center;
+    font-size: 48px;
+}
+
+main section.newcard p{
+    text-align: center;
+    color: #65665C;
+}
+
+
+main section.newcard div ul{
+    display: grid;
+    width: 100%;
+    column-gap: 16px;
+    row-gap: 10px;
+    grid-template-columns: repeat(3,2fr);
+}
+
+
+
+main section.newcard div ul li{
+    display: grid;
+    row-gap: 16px;
+    border-radius: 10px;
+    padding: 1vw;
+    background-color: var(--color-white);
+}
+
+main section.newcard div ul li a{
+    display: flex;
+    align-items: center;
+}
+
+main section.newcard div ul li a svg{
+    width: 15px;
+    height: 15px;
+}
+
+main section.newcard .explore{
+    display: flex;
+    margin: 0 auto;
+    column-gap: 24px;
+    row-gap: 10px;
+
+}
+
+main section.newcard .explore a.first{
+    display: grid;
+    background-color: var(--color-white);
+    color: #000;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e7e8e3;
+    width: 200px;
+    height: 30px;
+
+}
+
+main section.newcard .explore a.first:hover{
+    border: 1px solid var(--color-orange);
+    color: var(--color-orange);
+}
+
+main section.newcard  .explore a.agent svg{
+    width: 15px;
+    height: 15px;
+}
+
+main section.newcard .explore a.agent:hover{
+    border: 1px solid var(--color-orange);
+    color: var(--color-orange);
+    border-radius: 16px;
+}
+
+
+main section.newcard .explore a.agent{
+    display: flex;
+    color: #000;
+    align-items: center;
 }
